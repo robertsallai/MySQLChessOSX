@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2956BC17EB932700B4D383 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2956BB17EB932700B4D383 /* Cocoa.framework */; };
+		0D2956C617EB932700B4D383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D2956C417EB932700B4D383 /* InfoPlist.strings */; };
+		0D2956C817EB932700B4D383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2956C717EB932700B4D383 /* main.m */; };
+		0D2956CC17EB932700B4D383 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0D2956CA17EB932700B4D383 /* Credits.rtf */; };
+		0D2956CF17EB932700B4D383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2956CE17EB932700B4D383 /* AppDelegate.m */; };
+		0D2956D217EB932700B4D383 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D2956D017EB932700B4D383 /* MainMenu.xib */; };
+		0D2956D417EB932700B4D383 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2956D317EB932700B4D383 /* Images.xcassets */; };
+		0D2956DB17EB932700B4D383 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2956DA17EB932700B4D383 /* XCTest.framework */; };
+		0D2956DC17EB932700B4D383 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2956BB17EB932700B4D383 /* Cocoa.framework */; };
+		0D2956E417EB932700B4D383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D2956E217EB932700B4D383 /* InfoPlist.strings */; };
+		0D2956E617EB932700B4D383 /* MySQLChessOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2956E517EB932700B4D383 /* MySQLChessOSXTests.m */; };
+		0D39B3FF180722E100631CA1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D39B3FD180722E100631CA1 /* LoginViewController.m */; };
+		0D39B400180722E100631CA1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D39B3FE180722E100631CA1 /* LoginViewController.xib */; };
+		0D39B405180746AE00631CA1 /* GameBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D39B403180746AE00631CA1 /* GameBrowserViewController.m */; };
+		0D39B406180746AE00631CA1 /* GameBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D39B404180746AE00631CA1 /* GameBrowserViewController.xib */; };
+		0D39B40918074C9500631CA1 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D39B40818074C9500631CA1 /* Match.m */; };
+		0D39B40E1808914000631CA1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39B40D1808914000631CA1 /* QuartzCore.framework */; };
+		0D57521017FDCA49009B78AF /* Bishop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5751FF17FDCA49009B78AF /* Bishop.m */; };
+		0D57521117FDCA49009B78AF /* ChessGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57520117FDCA49009B78AF /* ChessGame.m */; };
+		0D57521217FDCA49009B78AF /* Chesspiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57520317FDCA49009B78AF /* Chesspiece.m */; };
+		0D57521317FDCA49009B78AF /* King.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57520517FDCA49009B78AF /* King.m */; };
+		0D57521417FDCA49009B78AF /* Knight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57520717FDCA49009B78AF /* Knight.m */; };
+		0D57521517FDCA49009B78AF /* Pawn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57520917FDCA49009B78AF /* Pawn.m */; };
+		0D57521617FDCA49009B78AF /* Queen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57520B17FDCA49009B78AF /* Queen.m */; };
+		0D57521717FDCA49009B78AF /* Rook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57520D17FDCA49009B78AF /* Rook.m */; };
+		0DBF1B681809AD190022173A /* ChessBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF1B661809AD190022173A /* ChessBoardViewController.m */; };
+		0DBF1B691809AD190022173A /* ChessBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DBF1B671809AD190022173A /* ChessBoardViewController.xib */; };
+		0DBF1B6C1809CB6F0022173A /* ChessBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF1B6B1809CB6F0022173A /* ChessBoardView.m */; };
+		0DBF1B7F180A4CF40022173A /* PlayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF1B7E180A4CF40022173A /* PlayerInfo.m */; };
+		0DF4EE381807216A009983BB /* SocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF4EE371807216A009983BB /* SocketConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D2956DD17EB932700B4D383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D2956B017EB932600B4D383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D2956B717EB932600B4D383;
+			remoteInfo = MySQLChessOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2956B817EB932700B4D383 /* MySQLChessOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySQLChessOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2956BB17EB932700B4D383 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0D2956BE17EB932700B4D383 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0D2956BF17EB932700B4D383 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0D2956C017EB932700B4D383 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D2956C317EB932700B4D383 /* MySQLChessOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySQLChessOSX-Info.plist"; sourceTree = "<group>"; };
+		0D2956C517EB932700B4D383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D2956C717EB932700B4D383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D2956C917EB932700B4D383 /* MySQLChessOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySQLChessOSX-Prefix.pch"; sourceTree = "<group>"; };
+		0D2956CB17EB932700B4D383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0D2956CD17EB932700B4D383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D2956CE17EB932700B4D383 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D2956D117EB932700B4D383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0D2956D317EB932700B4D383 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0D2956D917EB932700B4D383 /* MySQLChessOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySQLChessOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2956DA17EB932700B4D383 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0D2956E117EB932700B4D383 /* MySQLChessOSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySQLChessOSXTests-Info.plist"; sourceTree = "<group>"; };
+		0D2956E317EB932700B4D383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D2956E517EB932700B4D383 /* MySQLChessOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySQLChessOSXTests.m; sourceTree = "<group>"; };
+		0D39B3FC180722E100631CA1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/LoginViewController.h; sourceTree = "<group>"; };
+		0D39B3FD180722E100631CA1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginViewController.m; sourceTree = "<group>"; };
+		0D39B3FE180722E100631CA1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ViewControllers/LoginViewController.xib; sourceTree = "<group>"; };
+		0D39B402180746AE00631CA1 /* GameBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameBrowserViewController.h; path = ViewControllers/GameBrowserViewController.h; sourceTree = "<group>"; };
+		0D39B403180746AE00631CA1 /* GameBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameBrowserViewController.m; path = ViewControllers/GameBrowserViewController.m; sourceTree = "<group>"; };
+		0D39B404180746AE00631CA1 /* GameBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GameBrowserViewController.xib; path = ViewControllers/GameBrowserViewController.xib; sourceTree = "<group>"; };
+		0D39B40718074C9500631CA1 /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		0D39B40818074C9500631CA1 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		0D39B40D1808914000631CA1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0D5751FE17FDCA49009B78AF /* Bishop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bishop.h; sourceTree = "<group>"; };
+		0D5751FF17FDCA49009B78AF /* Bishop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bishop.m; sourceTree = "<group>"; };
+		0D57520017FDCA49009B78AF /* ChessGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessGame.h; sourceTree = "<group>"; };
+		0D57520117FDCA49009B78AF /* ChessGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessGame.m; sourceTree = "<group>"; };
+		0D57520217FDCA49009B78AF /* Chesspiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chesspiece.h; sourceTree = "<group>"; };
+		0D57520317FDCA49009B78AF /* Chesspiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chesspiece.m; sourceTree = "<group>"; };
+		0D57520417FDCA49009B78AF /* King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = King.h; sourceTree = "<group>"; };
+		0D57520517FDCA49009B78AF /* King.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = King.m; sourceTree = "<group>"; };
+		0D57520617FDCA49009B78AF /* Knight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knight.h; sourceTree = "<group>"; };
+		0D57520717FDCA49009B78AF /* Knight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Knight.m; sourceTree = "<group>"; };
+		0D57520817FDCA49009B78AF /* Pawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pawn.h; sourceTree = "<group>"; };
+		0D57520917FDCA49009B78AF /* Pawn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pawn.m; sourceTree = "<group>"; };
+		0D57520A17FDCA49009B78AF /* Queen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queen.h; sourceTree = "<group>"; };
+		0D57520B17FDCA49009B78AF /* Queen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queen.m; sourceTree = "<group>"; };
+		0D57520C17FDCA49009B78AF /* Rook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rook.h; sourceTree = "<group>"; };
+		0D57520D17FDCA49009B78AF /* Rook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rook.m; sourceTree = "<group>"; };
+		0DBF1B651809AD190022173A /* ChessBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChessBoardViewController.h; path = MySQLChessOSX/ViewControllers/ChessBoardViewController.h; sourceTree = SOURCE_ROOT; };
+		0DBF1B661809AD190022173A /* ChessBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChessBoardViewController.m; path = MySQLChessOSX/ViewControllers/ChessBoardViewController.m; sourceTree = SOURCE_ROOT; };
+		0DBF1B671809AD190022173A /* ChessBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChessBoardViewController.xib; path = MySQLChessOSX/ViewControllers/ChessBoardViewController.xib; sourceTree = SOURCE_ROOT; };
+		0DBF1B6A1809CB6F0022173A /* ChessBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoardView.h; sourceTree = "<group>"; };
+		0DBF1B6B1809CB6F0022173A /* ChessBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoardView.m; sourceTree = "<group>"; };
+		0DBF1B7D180A4CF30022173A /* PlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInfo.h; sourceTree = "<group>"; };
+		0DBF1B7E180A4CF40022173A /* PlayerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerInfo.m; sourceTree = "<group>"; };
+		0DF4EE361807216A009983BB /* SocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketConnection.h; sourceTree = "<group>"; };
+		0DF4EE371807216A009983BB /* SocketConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D2956B517EB932600B4D383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D39B40E1808914000631CA1 /* QuartzCore.framework in Frameworks */,
+				0D2956BC17EB932700B4D383 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2956D617EB932700B4D383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2956DC17EB932700B4D383 /* Cocoa.framework in Frameworks */,
+				0D2956DB17EB932700B4D383 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2956AF17EB932600B4D383 = {
+			isa = PBXGroup;
+			children = (
+				0D2956C117EB932700B4D383 /* MySQLChessOSX */,
+				0D2956DF17EB932700B4D383 /* MySQLChessOSXTests */,
+				0D2956BA17EB932700B4D383 /* Frameworks */,
+				0D2956B917EB932700B4D383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D2956B917EB932700B4D383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D2956B817EB932700B4D383 /* MySQLChessOSX.app */,
+				0D2956D917EB932700B4D383 /* MySQLChessOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D2956BA17EB932700B4D383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D39B40D1808914000631CA1 /* QuartzCore.framework */,
+				0D2956BB17EB932700B4D383 /* Cocoa.framework */,
+				0D2956DA17EB932700B4D383 /* XCTest.framework */,
+				0D2956BD17EB932700B4D383 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D2956BD17EB932700B4D383 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D2956BE17EB932700B4D383 /* AppKit.framework */,
+				0D2956BF17EB932700B4D383 /* CoreData.framework */,
+				0D2956C017EB932700B4D383 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0D2956C117EB932700B4D383 /* MySQLChessOSX */ = {
+			isa = PBXGroup;
+			children = (
+				0D5751FD17FDCA49009B78AF /* Model */,
+				0D39B4011807463700631CA1 /* Views */,
+				0DF4EE3C18072201009983BB /* ViewControllers */,
+				0D2956D317EB932700B4D383 /* Images.xcassets */,
+				0D2956C217EB932700B4D383 /* Supporting Files */,
+			);
+			path = MySQLChessOSX;
+			sourceTree = "<group>";
+		};
+		0D2956C217EB932700B4D383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D2956CD17EB932700B4D383 /* AppDelegate.h */,
+				0D2956CE17EB932700B4D383 /* AppDelegate.m */,
+				0D2956C317EB932700B4D383 /* MySQLChessOSX-Info.plist */,
+				0D2956C417EB932700B4D383 /* InfoPlist.strings */,
+				0D2956C717EB932700B4D383 /* main.m */,
+				0D2956C917EB932700B4D383 /* MySQLChessOSX-Prefix.pch */,
+				0D2956CA17EB932700B4D383 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D2956DF17EB932700B4D383 /* MySQLChessOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D2956E517EB932700B4D383 /* MySQLChessOSXTests.m */,
+				0D2956E017EB932700B4D383 /* Supporting Files */,
+			);
+			path = MySQLChessOSXTests;
+			sourceTree = "<group>";
+		};
+		0D2956E017EB932700B4D383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D2956E117EB932700B4D383 /* MySQLChessOSXTests-Info.plist */,
+				0D2956E217EB932700B4D383 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D39B4011807463700631CA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D2956D017EB932700B4D383 /* MainMenu.xib */,
+				0D39B3FE180722E100631CA1 /* LoginViewController.xib */,
+				0D39B404180746AE00631CA1 /* GameBrowserViewController.xib */,
+				0DBF1B671809AD190022173A /* ChessBoardViewController.xib */,
+				0DBF1B6A1809CB6F0022173A /* ChessBoardView.h */,
+				0DBF1B6B1809CB6F0022173A /* ChessBoardView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0D5751FD17FDCA49009B78AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D57520217FDCA49009B78AF /* Chesspiece.h */,
+				0D57520317FDCA49009B78AF /* Chesspiece.m */,
+				0D5751FE17FDCA49009B78AF /* Bishop.h */,
+				0D5751FF17FDCA49009B78AF /* Bishop.m */,
+				0D57520417FDCA49009B78AF /* King.h */,
+				0D57520517FDCA49009B78AF /* King.m */,
+				0D57520617FDCA49009B78AF /* Knight.h */,
+				0D57520717FDCA49009B78AF /* Knight.m */,
+				0D57520817FDCA49009B78AF /* Pawn.h */,
+				0D57520917FDCA49009B78AF /* Pawn.m */,
+				0D57520A17FDCA49009B78AF /* Queen.h */,
+				0D57520B17FDCA49009B78AF /* Queen.m */,
+				0D57520C17FDCA49009B78AF /* Rook.h */,
+				0D57520D17FDCA49009B78AF /* Rook.m */,
+				0D39B40718074C9500631CA1 /* Match.h */,
+				0D39B40818074C9500631CA1 /* Match.m */,
+				0D57520017FDCA49009B78AF /* ChessGame.h */,
+				0D57520117FDCA49009B78AF /* ChessGame.m */,
+				0DBF1B7D180A4CF30022173A /* PlayerInfo.h */,
+				0DBF1B7E180A4CF40022173A /* PlayerInfo.m */,
+				0DF4EE361807216A009983BB /* SocketConnection.h */,
+				0DF4EE371807216A009983BB /* SocketConnection.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DF4EE3C18072201009983BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D39B3FC180722E100631CA1 /* LoginViewController.h */,
+				0D39B3FD180722E100631CA1 /* LoginViewController.m */,
+				0D39B402180746AE00631CA1 /* GameBrowserViewController.h */,
+				0D39B403180746AE00631CA1 /* GameBrowserViewController.m */,
+				0DBF1B651809AD190022173A /* ChessBoardViewController.h */,
+				0DBF1B661809AD190022173A /* ChessBoardViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D2956B717EB932600B4D383 /* MySQLChessOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2956E917EB932700B4D383 /* Build configuration list for PBXNativeTarget "MySQLChessOSX" */;
+			buildPhases = (
+				0D2956B417EB932600B4D383 /* Sources */,
+				0D2956B517EB932600B4D383 /* Frameworks */,
+				0D2956B617EB932600B4D383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySQLChessOSX;
+			productName = MySQLChessOSX;
+			productReference = 0D2956B817EB932700B4D383 /* MySQLChessOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D2956D817EB932700B4D383 /* MySQLChessOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2956EC17EB932700B4D383 /* Build configuration list for PBXNativeTarget "MySQLChessOSXTests" */;
+			buildPhases = (
+				0D2956D517EB932700B4D383 /* Sources */,
+				0D2956D617EB932700B4D383 /* Frameworks */,
+				0D2956D717EB932700B4D383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D2956DE17EB932700B4D383 /* PBXTargetDependency */,
+			);
+			name = MySQLChessOSXTests;
+			productName = MySQLChessOSXTests;
+			productReference = 0D2956D917EB932700B4D383 /* MySQLChessOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D2956B017EB932600B4D383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Robert Sallai";
+				TargetAttributes = {
+					0D2956B717EB932600B4D383 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					0D2956D817EB932700B4D383 = {
+						TestTargetID = 0D2956B717EB932600B4D383;
+					};
+				};
+			};
+			buildConfigurationList = 0D2956B317EB932600B4D383 /* Build configuration list for PBXProject "MySQLChessOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D2956AF17EB932600B4D383;
+			productRefGroup = 0D2956B917EB932700B4D383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D2956B717EB932600B4D383 /* MySQLChessOSX */,
+				0D2956D817EB932700B4D383 /* MySQLChessOSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D2956B617EB932600B4D383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D39B400180722E100631CA1 /* LoginViewController.xib in Resources */,
+				0DBF1B691809AD190022173A /* ChessBoardViewController.xib in Resources */,
+				0D2956C617EB932700B4D383 /* InfoPlist.strings in Resources */,
+				0D2956D417EB932700B4D383 /* Images.xcassets in Resources */,
+				0D2956CC17EB932700B4D383 /* Credits.rtf in Resources */,
+				0D2956D217EB932700B4D383 /* MainMenu.xib in Resources */,
+				0D39B406180746AE00631CA1 /* GameBrowserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2956D717EB932700B4D383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2956E417EB932700B4D383 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D2956B417EB932600B4D383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D57521717FDCA49009B78AF /* Rook.m in Sources */,
+				0D2956CF17EB932700B4D383 /* AppDelegate.m in Sources */,
+				0D57521017FDCA49009B78AF /* Bishop.m in Sources */,
+				0D57521417FDCA49009B78AF /* Knight.m in Sources */,
+				0DBF1B6C1809CB6F0022173A /* ChessBoardView.m in Sources */,
+				0D57521217FDCA49009B78AF /* Chesspiece.m in Sources */,
+				0D57521117FDCA49009B78AF /* ChessGame.m in Sources */,
+				0D39B405180746AE00631CA1 /* GameBrowserViewController.m in Sources */,
+				0DBF1B681809AD190022173A /* ChessBoardViewController.m in Sources */,
+				0DF4EE381807216A009983BB /* SocketConnection.m in Sources */,
+				0D57521317FDCA49009B78AF /* King.m in Sources */,
+				0D39B40918074C9500631CA1 /* Match.m in Sources */,
+				0D39B3FF180722E100631CA1 /* LoginViewController.m in Sources */,
+				0D57521617FDCA49009B78AF /* Queen.m in Sources */,
+				0D2956C817EB932700B4D383 /* main.m in Sources */,
+				0DBF1B7F180A4CF40022173A /* PlayerInfo.m in Sources */,
+				0D57521517FDCA49009B78AF /* Pawn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2956D517EB932700B4D383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2956E617EB932700B4D383 /* MySQLChessOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D2956DE17EB932700B4D383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D2956B717EB932600B4D383 /* MySQLChessOSX */;
+			targetProxy = 0D2956DD17EB932700B4D383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D2956C417EB932700B4D383 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D2956C517EB932700B4D383 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D2956CA17EB932700B4D383 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D2956CB17EB932700B4D383 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0D2956D017EB932700B4D383 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D2956D117EB932700B4D383 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0D2956E217EB932700B4D383 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D2956E317EB932700B4D383 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D2956E717EB932700B4D383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0D2956E817EB932700B4D383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D2956EA17EB932700B4D383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySQLChessOSX/MySQLChessOSX-Prefix.pch";
+				INFOPLIST_FILE = "MySQLChessOSX/MySQLChessOSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D2956EB17EB932700B4D383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySQLChessOSX/MySQLChessOSX-Prefix.pch";
+				INFOPLIST_FILE = "MySQLChessOSX/MySQLChessOSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0D2956ED17EB932700B4D383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySQLChessOSX.app/Contents/MacOS/MySQLChessOSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySQLChessOSX/MySQLChessOSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MySQLChessOSXTests/MySQLChessOSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0D2956EE17EB932700B4D383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySQLChessOSX.app/Contents/MacOS/MySQLChessOSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySQLChessOSX/MySQLChessOSX-Prefix.pch";
+				INFOPLIST_FILE = "MySQLChessOSXTests/MySQLChessOSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D2956B317EB932600B4D383 /* Build configuration list for PBXProject "MySQLChessOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2956E717EB932700B4D383 /* Debug */,
+				0D2956E817EB932700B4D383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2956E917EB932700B4D383 /* Build configuration list for PBXNativeTarget "MySQLChessOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2956EA17EB932700B4D383 /* Debug */,
+				0D2956EB17EB932700B4D383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2956EC17EB932700B4D383 /* Build configuration list for PBXNativeTarget "MySQLChessOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2956ED17EB932700B4D383 /* Debug */,
+				0D2956EE17EB932700B4D383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D2956B017EB932600B4D383 /* Project object */;
+}
